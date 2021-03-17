@@ -1,7 +1,7 @@
 
-Helpers = {"Noooooooorr#0000","Cyanny#0000","Heba#4782"}
+local Helpers = {"Noooooooorr#0000","Cyanny#0000","Heba#4782"}
 
-lang={}
+local lang={}
 lang.ar={
 	ZalekhaName="زليخة",
 	ModuleName="إنقاذ القائدة",
@@ -104,16 +104,16 @@ local teleport = {
 	{6450, 1800, 55, 8970, 560},
 	{8285, 510, 75, 2550, 550},
 
-	{2635, 550, 50, 8383, 530,true},
-	{9043, 550, 60, 6520, 1791,true},
-	{7500, 1800, 50, 5096, 1165,true}, 
-	{4540, 1300, 30, 3322, 1475,true}
+	{2635, 550, 50, 8383, 530, true},
+	{9043, 550, 60, 6520, 1791, true},
+	{7500, 1800, 50, 5096, 1165, true}, 
+	{4540, 1300, 30, 3322, 1475, true}
 }
 
 local bosses = {
 	massi = {
 		health = 100,
-		damage = 2,
+		damage = 1,
 		killing = false,
 		fighting = false,
 		talking = 0,
@@ -121,7 +121,7 @@ local bosses = {
 	},
 	zalekha = {
 		health = 100,
-		damage = 1,
+		damage = 0.5, --
 		fighting = false, 
 		killing = false,
 		talking = 0 ,
@@ -217,6 +217,7 @@ function eventPlayerLeft(name)
 	end
 end
 
+---This script I made it in 2019 and I'm too lazy to remake this loop ;c
 function eventLoop()
 	if bosses.massi.killing then
 		ui.addTextArea(-9, "", nil, 8, 394, 7.86 * bosses.massi.health, 5, 0xE484C4, 0xE484C4, 1, true)
@@ -452,7 +453,6 @@ for name, player in next, tfm.get.room.playerList do
 			ui.addTextArea(666, "<p align='center'><font size='15'><a href='event:TheKey'>\n \n \n \n \n \n ", nil,5179 ,1417,70,50, 0x0, 0x0, 1, false)
 		end
 	end
-------------قتال زليخة
 		if not bosses.massi.fighting then
 			if player.x > 6800 and player.x < 7110 and player.y > 1670 and player.y < 1822 then
 				tfm.exec.addPhysicObject(1,6340,1395,{type=14, height=1130, width=1130, angle=0,color=nil, friction=0, restitution=0, dynamic=false,foreground=false,miceCollision=true})
