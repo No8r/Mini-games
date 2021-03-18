@@ -8,7 +8,7 @@ local num = 0
 local names = {}
 local game = {
     commands = {"+","-","c","fc"},
-    admins = {["Ragekitteee#0015"] = true,["Noooooooorr#0000"] = true,["Kiwi_is_here#0558"] = true,["Uvfn#0000"] = true,["Lalajb#0000"] = true,["Omaraldin#1619"] = true,["Massi#0010"] = true},
+    admins = {["Noooooooorr#0000"] = true,["Kiwi_is_here#0558"] = true,["Uvfn#0015"] = true},
     bad_words={"خرا", "shit"},
     winners = {}
 }
