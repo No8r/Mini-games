@@ -5,13 +5,8 @@ end
 
 local admins = {
     [scripter] = true,
-	["Lalajb#0000"] = true,
-	["Uvfn#0000"] = true,
+	["Uvfn#0015"] = true,
 	["Kiwi_is_here#0558"] = true,
-	["Massi#0010"] = true,
-	["Omaraldin#1619"] = true,
-	["Ragekitteee#0015"] = true,
-
 }
 
 local funcorps={}
