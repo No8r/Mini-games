@@ -113,14 +113,6 @@ local questions = {
         q="ghostin 'is a song by Ariana grande but in which album is it?",
         a={"thanks u next", "sweetner", "My everything", "Dangerous woman"},
     },
-    {
-        q="1+1 = ?",
-        a={"1", "2", "11", "111"},
-    },
-    {
-        q="1+1 = ?",
-        a={"1", "2", "11", "111"},
-    },
 }
 print("<fc>Questions number: </fc><n>"..#questions)
 
