@@ -579,12 +579,12 @@ function eatMouse(name)
                             mouse.eaten = true
                             p[name].size = p[name].size + mouse.size / 2
                             updateSize(name,p[name].size) 
-                            TFM.chatMessage(string.format(translate("eatPlayer", n.name), mouse.name, name), mouse.name)
+                            TFM.chatMessage(string.format(translate("eatPlayer", name), mouse.name, name), mouse.name)
                             mouse = nil
                             data[name].miceEats = data[name].miceEats + 1 
                             addXP(name, 1)
                         else
-                            TFM.chatMessage(string.format(translate("haveShield", n.name), string.name(mouse.name)), name)
+                            TFM.chatMessage(string.format(translate("haveShield", name), string.name(mouse.name)), name)
                             TFM.displayParticle(10, mouse.x, mouse.y)
                             if room.playerList[name].isFacingRight then
                                 TFM.movePlayer(name, 0, 0, true, -200, 0, false)
