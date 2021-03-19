@@ -5,8 +5,13 @@ end
 
 local admins = {
     [scripter] = true,
-	["Uvfn#0015"] = true,
+	["Lalajb#0000"] = true,
+	["Uvfn#0000"] = true,
 	["Kiwi_is_here#0558"] = true,
+	["Massi#0010"] = true,
+	["Omaraldin#1619"] = true,
+	["Ragekitteee#0015"] = true,
+
 }
 
 local funcorps={}
@@ -35,29 +40,29 @@ local flower = {add = 0, put = 0}
 
 local price={
 	changeSize=1,
-	 changenick=15,
-	  changecolor=10,
-	  coffee=5,
-	 open_portal=50,
+	changenick=15,
+	changecolor=10,
+	coffee=5,
+	open_portal=50,
 	transforming=15
 }
 
 character = {
-    mouny={
+	mouny={
 		number = 1,
 		name = "Mouny",
-        color = "d7b27e",
-        x = 6228 ,
+		color = "d7b27e",
+		x = 6228 ,
 		y = 1630 ,
 		callback = {
 			[1] = "mouny1",
 			[2] = "mouny1",
 		},
-        img = {
-            big = {"172f7272c07.png",110,170},
-        }
-    },
-    justin={
+		img = {
+			big = {"172f7272c07.png",110,170},
+		}
+	},
+	justin={
 		number = 2,
 		name = "Justin",
 		color = "51cae7",
@@ -65,14 +70,14 @@ character = {
 		callback = {
 			[1] = "justin1"
 		},
-        x = 17816 ,
-        y = 470 ,
-        img = {
-            big = {"172a564607a.png",110,150},
-            small = {"172a56433a6.png",17816,494,"fg"},
-        }
-    },
-    zalekha={
+		x = 17816 ,
+		y = 470 ,
+		img = {
+			big = {"172a564607a.png",110,150},
+			small = {"172a56433a6.png",17816,494,"fg"},
+		}
+	},
+	zalekha={
 		number = 3,
 		name = "Zalekha",
 		color = "d7b27e",
@@ -80,62 +85,62 @@ character = {
 			[1] = "zalekha1",
 			[2] = "zalekha2",
 		},
-        x = 7777 ,
-        y = 1670 ,
-        img = {
-            big = {"171b741a1c0.png",110,180},
-            small = {"16f6d89a920.png",7780,1695,"fg"}
-        }
-    },
-    veinem={
+		x = 7777 ,
+		y = 1670 ,
+		img = {
+			big = {"171b741a1c0.png",110,180},
+			small = {"16f6d89a920.png",7780,1695,"fg"}
+		}
+	},
+	veinem={
 		number = 4,
 		name = "Veinem",
-        color = "FFF2F5",
-        x = 4995 ,
-        y = 1630 ,
-        img = {
-            big = {"1718eae311f.png",80,170},
-            small = {"1718e86a41f.png",5005,1650,"fg"}
-        },
+		color = "FFF2F5",
+		x = 4995 ,
+		y = 1630 ,
+		img = {
+		    big = {"1718eae311f.png",80,170},
+		    small = {"1718e86a41f.png",5005,1650,"fg"}
+		},
     },
     uvfn={
 		number = 5,
 		name = "Uvfn",
-        color = "ED9C00",
-        x = 11436 ,
+		color = "ED9C00",
+		x = 11436 ,
 		y = 220 ,
 		flower = price.coffee ,
 		callback = {
 			[1] = "coffee",
 		},
-        img = {
-            big = {"171a7e2cd2e.png",100,170}
-        },
+		img = {
+			big = {"171a7e2cd2e.png",100,170}
+		},
     },
     aron={
 		number = 6,
 		name = "Aron",
-        color = "EFF2F7",
-        x = 8937 ,
+		color = "EFF2F7",
+		x = 8937 ,
 		y = 1590 ,
 		flower = price.changeSize ,
-        img = {
-            big = {"1718013d8e6.png",65,180}
-        },
+		img = {
+			big = {"1718013d8e6.png",65,180}
+		},
     },
     heba={
 		number = 7,
 		name = "Heba",
-        color = "FFE8D7",
-        x = 8933 ,
+		color = "FFE8D7",
+		x = 8933 ,
 		y = 1370 ,
 		flower = price.changecolor ,
 		callback = {
 			[1] = "changecolor",
 			[2] = "accessories"
 		},
-        img = {
-            big = {"1704ac6eca2.png",110,180}
+		img = {
+		    big = {"1704ac6eca2.png",110,180}
 		},
     },
     sadeah={
@@ -143,15 +148,15 @@ character = {
 		name = "Sadeah",
 		color = "B16127",
 		flower = price.changenick ,
-        x = 9364 ,
+		x = 9364 ,
 		y = 1347 ,
 		callback = {
 			[1] = "changenick",
 			[2] = "colornick"
 		},
-        img = {
-            big = {"17183e6416e.png",110,180}
-        },
+		img = {
+		    big = {"17183e6416e.png",110,180}
+		},
     },
     poul={
 		number = 9,
@@ -160,11 +165,11 @@ character = {
 		callback = {
 			[1] = "poul1",
 		},
-        x = 16121 ,
-        y = 440 ,
-        img = {
-            big = {"1744ad7430f.png",110,170},
-            small = {"1744ad71059.png",16121,450,"fg"},
+		x = 16121 ,
+		y = 440 ,
+		img = {
+		    big = {"1744ad7430f.png",110,170},
+		    small = {"1744ad71059.png",16121,450,"fg"},
 		},
 	},
 	vigo = {
@@ -334,7 +339,7 @@ places ={
 		{"p2", "174171b099b.png", "!3", 8555, 1140},
 	},
 	classes = {
-        {"p1", "17667878289.png", "?2", 21485 , 5},
+		{"p1", "17667878289.png", "?2", 21485 , 5},
 		{"p2", "176678b07b2.png", "!3", 21485 , 5},
 		{"p3", "1766ce0284d.png", "!3", 21485 , 1050},
 	},
@@ -1722,18 +1727,18 @@ end
 
 function item(id,name,itemName,img,x1,x2,y)
 	local x = math.random(x1,x2)
-	 if not y then y = 1675 end
-	 click[name] = os.time()
-	 quests[name].items[#quests[name].items+1] = {name=name,id=id+9000,itemName=itemName ,x=x,y=y , img = trans.addImage(img,"!1",x-5,y-5,name) }
+	if not y then y = 1675 end
+	click[name] = os.time()
+	quests[name].items[#quests[name].items+1] = {name=name,id=id+9000,itemName=itemName ,x=x,y=y , img = trans.addImage(img,"!1",x-5,y-5,name) }
 	ui.addTextArea(id+9000,"<p align='center'><font size='15'><a href='event:"..itemName.."'>\n\n\n\n",name,x-10,y,50,50,0x13130,0x13130,0,false)
 end
 
 function removeItem(item,name)
 	click[item.name] = os.time()
-	 ui.removeTextArea(item.id,name)
-	  trans.removeImage(item.img,name)
-	  local addItem = quests[item.name]
-	 trans.chatMessage(string.format(tn(item.name,"youtook"),tn(item.name,item.itemName)),name)
+	ui.removeTextArea(item.id,name)
+	trans.removeImage(item.img,name)
+	local addItem = quests[item.name]
+	trans.chatMessage(string.format(tn(item.name,"youtook"),tn(item.name,item.itemName)),name)
 	addItem.itemsTaked[#addItem.itemsTaked+1] = {item=item.itemName}
 end
 
@@ -1768,12 +1773,12 @@ function checkItem(itemName,name)
 end
 
 function checkName(name)
-    local player
-    if name then
-        player = name:sub(1,1):upper()..name:sub(2):lower()
-    end
+	local player
+	if name then
+		player = name:sub(1,1):upper()..name:sub(2):lower()
+	end
 	for n in next, tfm.get.room.playerList do
-        if player == n then
+		if player == n then
 			return player  
 		end
 	end
@@ -1829,12 +1834,12 @@ function getdata()
   game.data_version = game.data_version + 1
 	datalist = ''
 	for n in next, tfm.get.room.playerList do
-        if p[n].magic_world then
-            if p[n].transformation then 
-                datalist = datalist .. "d(\""..n.."\","..p[n].money..",1,1) "
-            else
-            datalist = datalist .. "d(\""..n.."\","..p[n].money..",1) "
-            end
+		if p[n].magic_world then
+			if p[n].transformation then 
+				datalist = datalist .. "d(\""..n.."\","..p[n].money..",1,1) "
+			else
+			datalist = datalist .. "d(\""..n.."\","..p[n].money..",1) "
+			end
 		else
 			datalist = datalist .. "d(\""..n.."\","..p[n].money..") "
 		end
@@ -1845,11 +1850,11 @@ end
 function d(name,flower,magic_world,transformation)
 	if p[name] then
 		p[name].money=flower
-        if magic_world == 1 then
-            if transformation then
-                p[name].transformation = true
-                trans.giveTransformations(name,true)
-            end
+		if magic_world == 1 then
+			if transformation then
+				p[name].transformation = true
+				trans.giveTransformations(name,true)
+			end
 			p[name].magic_world = true
 			ui.addTextArea(-100-character.soul2.number, "<p align='center'><font size='15'><a href='event:soul9'>\n \n \n \n \n \n ", name,character.soul2.x-30 ,character.soul2.y, 110, 110, 0x0, 0x0, 1, false)
 		end
