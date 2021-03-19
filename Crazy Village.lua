@@ -251,97 +251,97 @@ quests={
 
 doors = {
 	--{id,enter,xTA,yTA,xTele,yTele,out}--
-	{1,"cafe",751 ,1660,11810,359,"village"},
-	{2,"village",11806 ,298,752 ,1711,"cafe"},
-	{3,"shop",511 ,1649,9360 ,1689,"village"},
-	{5,"village",9429,1617,511 ,1721,"shop"},
-	{6,"zalekha_house",1516 ,1660,8506 ,1722,"village"},
-	{7,"village",8550 ,1685,1482 ,1724,"zalekha_house"},
-	{8,"school",4465 ,1677,19250 ,1705,"village"},
-	{9,"village",16033 ,473,6726 ,1648,"magicplace"},
-	{10,"mushroom_place",13478 ,459,18166 ,480,"magicplace",0,-100},
-	{11,"magicplace",18120 ,440,13480 ,460,"mushroom_place",0,-100},
-	{12,nil,1897 ,1633,1897 ,1465},
-	{13,"village",19127 ,1586,4465,1700,"school"},
-	{14,nil,20819 ,1529,20814 ,1228},
-	{15,nil,20816 ,1274,20815 ,1475},
+	{1, "cafe", 751, 1660, 11810,359,"village"},
+	{2, "village", 11806, 298,752 ,1711,"cafe"},
+	{3, "shop", 511, 1649, 9360 ,1689,"village"},
+	{5, "village", 9429, 1617,511 ,1721,"shop"},
+	{6, "zalekha_house", 1516 ,1660,8506 ,1722,"village"},
+	{7, "village", 8550, 1685,1482 ,1724,"zalekha_house"},
+	{8, "school", 4465, 1677,19250 ,1705,"village"},
+	{9, "village", 16033, 473,6726 ,1648,"magicplace"},
+	{10, "mushroom_place", 13478 , 459,18166 ,480,"magicplace",0,-100},
+	{11, "magicplace", 18120 , 440,13480 ,460,"mushroom_place",0,-100},
+	{12, nil, 1897 , 1633, 1897 ,1465},
+	{13, "village", 19127 , 1586,4465,1700,"school"},
+	{14, nil, 20819 , 1529, 20814 ,1228},
+	{15, nil, 20816 , 1274, 20815 ,1475},
 
-	{16,"classes",19738 ,1540,22935 ,885,"school"},
-	{17,"classes",20135 ,1540,23094 ,885,"school"},
-	{18,"classes",20643 ,1540,24075 ,885,"school"},
+	{16, "classes", 19738 ,1540, 22935 , 885, "school"},
+	{17, "classes", 20135 ,1540, 23094 , 885, "school"},
+	{18, "classes", 20643 ,1540, 24075 , 885, "school"},
 
-	{19,"school",24075 ,833,20643 ,1626,"classes"},
-	{20,"school",23089 ,837,20135 ,1626,"classes"},
-	{21,"school",22923 ,833,19738 ,1626,"classes"},
+	{19, "school", 24075 , 833, 20643 , 1626, "classes"},
+	{20, "school", 23089 , 837, 20135 , 1626, "classes"},
+	{21, "school", 22923 , 833, 19738 , 1626, "classes"},
 
-	{22,"classes",19868 ,1149 ,22538 ,410,"school"},
-	{23,"classes",20998 ,1149 ,25101 ,410,"school"},
-	{24,"classes",21082 ,1149 ,25301 ,410,"school"},
+	{22, "classes", 19868 , 1149 , 22538 , 410, "school"},
+	{23, "classes", 20998 , 1149 , 25101 , 410, "school"},
+	{24, "classes", 21082 , 1149 , 25301 , 410, "school"},
 
-	{25,"school",22526 ,350 ,19868 ,1230,"classes"},
-	{26,"school",25118 ,350 ,20998 ,1230,"classes"},
-	{27,"school",25308 ,350 ,21082 ,1230,"classes"},
+	{25, "school",22526 , 350 , 19868 , 1230, "classes"},
+	{26, "school",25118 , 350 , 20998 , 1230, "classes"},
+	{27, "school",25308 , 350 , 21082 , 1230, "classes"},
 
 	--Library Stairs
-	{28,nil,21925 ,230 ,21925 ,364},
-	{29,nil,21925 ,364 ,21925 ,230},
+	{28, nil,21925 ,230 ,21925 ,364},
+	{29, nil,21925 ,364 ,21925 ,230},
 
 	--Bathrooms-in
-	{31,"classes",20181 ,1149 ,23442 ,440,"school"},
-	{32,"classes",20425 ,1149 ,23660 ,440,"school"},
+	{31, "classes", 20181 , 1149, 23442, 440,"school"},
+	{32, "classes", 20425 , 1149, 23660, 440,"school"},
 
 	--Bathrooms-out
-	{33,"school",23424 ,368	,20182 ,1230,"classes"},
-	{34,"school",23704 ,368	,20425 ,1230,"classes"},
+	{33, "school",23424 ,368, 20182 , 1230,"classes"},
+	{34, "school",23704 ,368, 20425 , 1230,"classes"},
 }
 
 places ={
 	village = {
-		{"p1","172e8b225f4.png","!20",6345,1195},
-		{"p2","172e878abc2.png","?19",4595,1170},
-		{"p3","172e8b09dbb.png", "?20",6345,1175},
-		{"p4","1746549bf4f.png", "!21",-5,1400},
-		{"p5","172e8b225f4.png","!20",6345,1195},
-		{"p6","174654539df.png", "?22", -5,980},
-		{"p7","17468b6940e.png","?20",4988 ,1657},
-		{"p9","1746546a662.png", "?23",2895,980},
-		{"p8","17468cbbfc4.png","?20",4815 ,1657},
-		{"p10","172e87ef557.png", "?25",4595,1175},
-		{"p11","172e8b2cf7b.png", "?20",6345,1475},
-		{"p12","17468f701d0.png","?20",1862 ,1511},
+		{"p1", "172e8b225f4.png", "!20", 6345, 1195},
+		{"p2", "172e878abc2.png", "?19", 4595, 1170},
+		{"p3", "172e8b09dbb.png", "?20", 6345, 1175},
+		{"p4", "1746549bf4f.png", "!21", -5, 1400},
+		{"p5", "172e8b225f4.png", "!20", 6345, 1195},
+		{"p6", "174654539df.png", "?22", -5, 980},
+		{"p7", "17468b6940e.png", "?20", 4988, 1657},
+		{"p9", "1746546a662.png", "?23", 2895, 980},
+		{"p8", "17468cbbfc4.png", "?20", 4815, 657},
+		{"p10", "172e87ef557.png", "?25", 4595, 1175},
+		{"p11", "172e8b2cf7b.png", "?20", 6345, 1475},
+		{"p12", "17468f701d0.png", "?20", 1862 , 1511},
 	},
 	school = {
-		{"place1","1747a2bf338.png", "?27",18845,950},
-		{"place2","1747a417c58.png", "!27",18845,950},
-		{"lib","17672de7c0f.png","!4",19856 ,1070},
-		{"lab","17672de4007.png","!4",20986 ,1069},
+		{"place1", "1747a2bf338.png", "?27", 18845, 950},
+		{"place2", "1747a417c58.png", "!27", 18845, 950},
+		{"lib", "17672de7c0f.png", "!4", 19856 , 1070},
+		{"lab", "17672de4007.png", "!4", 20986 , 1069},
 	},
 	magicplace = {
-		{"p1","17250b23fff.png", "?16", 12465 ,0},
-		{"p2","172ec820f35.png", "?17", 13883 ,0},
-		{"p3","172ec854115.png", "?18", 15382 ,0},
-		{"fgplace","172ec9369e7.png", "!19", 12465 ,478},
+		{"p1","17250b23fff.png", "?16", 12465, 0},
+		{"p2","172ec820f35.png", "?17", 13883, 0},
+		{"p3","172ec854115.png", "?18", 15382, 0},
+		{"fgplace", "172ec9369e7.png", "!19", 12465, 478},
 	},
 	mushroom_place = {
-		{"p1","1702b46da7c.png", "?20", 16995,0},
+		{"p1", "1702b46da7c.png", "?20", 16995,0},
 	},
     cafe = {
-        {"place1","172f6aa1f8d.png", "?9",10813,0},
-        {"placefg","172f6ac6bdd.png", "!9",10813,0},
+        {"place1", "172f6aa1f8d.png", "?9", 10813, 0},
+        {"placefg", "172f6ac6bdd.png", "!9", 10813, 0},
 		---{"light","172f6ad1797.png", "!10",10813,0},
 	},
 	zalekha_house = {
-        {"p1","173de825e36.png","?2",7241,1301},
-		{"p2","173ed4aedc5.png","!3",7241,1301},
+        {"p1", "173de825e36.png", "?2", 7241, 1301},
+		{"p2", "173ed4aedc5.png", "!3", 7241, 1301},
 	},
 	shop = {
-        {"p1","174171ab923.png","?2",8555,1140},
-		{"p2","174171b099b.png","!3",8555,1140},
+        {"p1", "174171ab923.png", "?2", 8555, 1140},
+		{"p2", "174171b099b.png", "!3", 8555, 1140},
 	},
 	classes = {
-        {"p1","17667878289.png","?2",21485 ,5},
-		{"p2","176678b07b2.png","!3",21485 ,5},
-		{"p3","1766ce0284d.png","!3",21485 ,1050},
+        {"p1", "17667878289.png", "?2", 21485 , 5},
+		{"p2", "176678b07b2.png", "!3", 21485 , 5},
+		{"p3", "1766ce0284d.png", "!3", 21485 , 1050},
 	},
 }
 
@@ -703,13 +703,13 @@ imgList = {
 	{"Wild Spongebob","155c4aac0b4", 20, 36, "155c4aadc1c", 20, 36},
     {"Jerry", "171524a755e", 40, 42,"1740c7d4de6", 40, 42},
 	{"Jerry2", "1740c7a6f61", 38, 35,"171524ab085", 38, 35},
-	{"Jerry3","1717581267e", 35, 80,"1717581457e",35, 80},
-	{"Jerry4","174d12f563b", 35, 60,"174d12f1634",35, 60},
-	{"Jerry5","174d140642c", 40, 70,"174d14019e2",40, 70},
-	{"Jerry6","17526fb7dca", 40, 40,"17526faf702",40, 40},
-	{"Jerry7","17526fa36ce", 40, 50,"17526fc5a1c",40, 50},
-	{"Jerry Yaaa!","1718e694e82", 32, 90,"1718e698ac9",42, 90},
-	{"Nibbles", "174d163217a",20, 33,"174d165c0fc",20, 33},
+	{"Jerry3","1717581267e", 35, 80,"1717581457e", 35, 80},
+	{"Jerry4","174d12f563b", 35, 60,"174d12f1634", 35, 60},
+	{"Jerry5","174d140642c", 40, 70,"174d14019e2", 40, 70},
+	{"Jerry6","17526fb7dca", 40, 40,"17526faf702", 40, 40},
+	{"Jerry7","17526fa36ce", 40, 50,"17526fc5a1c", 40, 50},
+	{"Jerry Yaaa!","1718e694e82", 32, 90,"1718e698ac9", 42, 90},
+	{"Nibbles", "174d163217a", 20, 33, "174d165c0fc", 20, 33},
 
 	{"Tom1", "174da253891", 20, 52, "174da244df6", 30, 52},
 	{"Tom2","1718e3f183d", 40, 65,"1718e3f4491", 30, 65},
@@ -741,7 +741,7 @@ imgList = {
 	{"Bush","1714bb4b8b1", 34, 21},
 
 	{"wat?","168be2e46a2", 55, 79, "168be2d9a28", 55, 79},
-	{"Fox : Huh?","168a9914efe", 50, 138, "168a9912f23", 65,138},
+	{"Fox : Huh?","168a9914efe", 50, 138, "168a9912f23", 65, 138},
 	{"Fat Bugs Bunny", "16a1132c123",40, 116,"16a1132a8d5", 40, 116},
 	{"Fat Sonic", "168a080bc7f", 50, 63,  "168a0809dae", 50, 63},
 	{"Shrek!", "168a9933057", 50, 87,"168a993157e", 50, 87},
@@ -820,18 +820,18 @@ function game.sky(period)
 		img = "17469dac192.png"
 	elseif period == "evening" then
 		img = "17469db17a8.png"
-		dayImg[5] = trans.addImage("1746a451300.png","!999",-5,980)
+		dayImg[5] = trans.addImage("1746a451300.png", "!999", -5, 980)
 	elseif period == "midnight" then
 		img = "17469db17a8.png"
-		dayImg[5] = trans.addImage("1746a451300.png","!999",-5,980)
-		dayImg[6] = trans.addImage("1746a451300.png","!999",-5,980)
+		dayImg[5] = trans.addImage("1746a451300.png", "!999", -5, 980)
+		dayImg[6] = trans.addImage("1746a451300.png", "!999", -5, 980)
 	elseif period == "dusk" then
 		img = "1746a519b6b.png"
-		dayImg[5] = trans.addImage("1746de0c96d.png","!999",-5,980)
+		dayImg[5] = trans.addImage("1746de0c96d.png", "!999", -5, 980)
 	end
 	game.skyMode = period
 	for i=0,3 do 
-		dayImg[#dayImg+1] = trans.addImage(img,"?1",i*1920,900)
+		dayImg[#dayImg+1] = trans.addImage(img, "?1", i*1920, 900)
 	end
 end
 
@@ -880,16 +880,16 @@ function school(name)
 	for i = 1,12 do 
 		local x = math.random(200,400) * i + 18900
 		local y
-		local img = {"174c20af1e9.png","174c20e2410.png","174c20e63f4.png","174c20eb892.png"}
+		local img = {"174c20af1e9.png", "174c20e2410.png", "174c20e63f4.png", "174c20eb892.png"}
 		if i >= 6 then
-			y = math.random(1635,1655)
+			y = math.random(1635, 1655)
 			if x > 21309 or x < 19097 then
-				x = math.random(19197,21309)
+				x = math.random(19197, 21309)
 			end
 		else
-			y = math.random(1220,1240)
+			y = math.random(1220, 1240)
 			if x > 21309 or x < 19097 then
-				x = math.random(19195,20673)
+				x = math.random(19195, 20673)
 			end
 		end
 		papers[name][#papers+1] = {x = x , y = y,img=trans.addImage(img[math.random(#img)] ,"_20",x-10,y+5,name),id=#papers}
@@ -915,7 +915,7 @@ end
 
 function eventPlayerLeft(name)
 	game.players[name] = nil
-	for _,p in pairs({"village","school","magicplace","cafe","zalekha_house","mushroom_place"}) do
+	for _,p in pairs({"village", "school", "magicplace", "cafe", "zalekha_house", "mushroom_place"}) do
 		if joinPlace(name,p) then
 			joinPlace(name,p,false)
 		end
@@ -942,8 +942,8 @@ function eventNewPlayer(name)
         ui.addTextArea(333, "<p align='center'><font size='15'><a href='event:admins_settings'>\n \n \n \n \n \n ", name,274, 345, 50, 50, 0x0, 0x0, 1, true)
     end
     for _,k in pairs(game.keys) do
-        trans.bindKeyboard(name, k, true,true)
-        trans.bindKeyboard(name, k, false,true)
+        trans.bindKeyboard(name, k, true, true)
+        trans.bindKeyboard(name, k, false, true)
 	end
     trans.setUIMapName(""..colors[math.random(#colors)].." Crazy Village")
 	trans.addImage("171799bcffa.png", ":1", 248, 333, name)
@@ -1000,7 +1000,7 @@ function eventPlayerDied(name)
 	if game.fastIcon[name] then
 		trans.removeImage(game.fastIcon[name],nil)
 		game.fastIcon[name] = nil
-		game.fastIcon[name] = trans.addImage("171a834ecd3.png","$"..name,-12,-95,nil)
+		game.fastIcon[name] = trans.addImage("171a834ecd3.png", "$"..name, -12, -95, nil)
 	end
 end
 
@@ -1012,13 +1012,13 @@ function lightEffect(name)
 	end
 	if p[name].textArea_light < 1 and p[name].light then
 		p[name].textArea_light = p[name].textArea_light + 0.2
-		ui.addTextArea(90000, "", name, 0, -2, 801, 405, 0xffffff, 0xffffff,p[name].textArea_light, true)
+		ui.addTextArea(90000, "", name, 0, -2, 801, 405, 0xffffff, 0xffffff, p[name].textArea_light, true)
 	elseif p[name].textArea_light == 1 and p[name].light then
 		trans.movePlayer(name,16032 ,472,false,0,-40,false)
 		p[name].light = false
 	elseif p[name].textArea_light <= 1 and not p[name].light and p[name].textArea_light > 0 then
 		p[name].textArea_light = p[name].textArea_light - 0.2
-		ui.addTextArea(90000, "", name, 0, -2, 801, 405, 0xffffff, 0xffffff,p[name].textArea_light, true)
+		ui.addTextArea(90000, "", name, 0, -2, 801, 405, 0xffffff, 0xffffff, p[name].textArea_light, true)
 	end
 end
 
@@ -1204,15 +1204,15 @@ function eventTextAreaCallback(id, name, cb)
 				ui.addTextArea(-206, "<a href='event:size"..tonumber(p[name].size).."'><font face='soopafresh' size='16'><B><p align='center'>"..p[name].size.."\n", name, 431, 296, 37, 35, 0x080808, 0xd7b27e, 0, true)
 			end
 		elseif cb=="zalekha1" then
-			talking(name,1,character.zalekha.img.big,tn(name,"zalekha_sp1"),tn(name,"zalekha_a2"),"zalekha3")
+			talking(name,1,character.zalekha.img.big,tn(name, "zalekha_sp1"),tn(name, "zalekha_a2"), "zalekha3")
 		elseif cb=="zalekha2" then
-			talking(name,1,character.zalekha.img.big,tn(name,"zalekha_sp2"),tn(name,"zalekha_a2"),"zalekha3")
+			talking(name,1,character.zalekha.img.big,tn(name, "zalekha_sp2"),tn(name, "zalekha_a2"), "zalekha3")
 		elseif cb=="zalekha3" then
-			talking(name,1,character.zalekha.img.big,tn(name,"zalekha_sp3"),tn(name,"zalekha_a3"),"zalekha4",20)
+			talking(name,1,character.zalekha.img.big,tn(name, "zalekha_sp3"),tn(name, "zalekha_a3"), "zalekha4", 20)
 		elseif cb=="zalekha4" then
 			close_talking(name,"zalekha","zalekha5")
 			item(676,name,"barbiePhone","171b7aec917.png",1674,1716,1370)
-			p[name].img.barbiePhone = trans.addImage("171b80db361.png", "!0", character.zalekha.x+55 ,character.zalekha.y, name)
+			p[name].img.barbiePhone = trans.addImage("171b80db361.png", "!0", character.zalekha.x+55, character.zalekha.y, name)
 		elseif cb=="zalekha5" and checkItem("barbiePhone",name) then
 			talking(name,1,character.zalekha.img.big,tn(name,"zalekha_sp4"),tn(name,"zalekha_a4"),"zalekha6")
 		elseif cb=="zalekha6" then
@@ -1540,7 +1540,7 @@ function collectFlower(id, name)
 				trans.removeBonus(id)
 				trans.removeImage(flowers[i].img)
 				table.remove(flowers, i)
-				local addFlowers = math.random(1,5)
+				local addFlowers = math.random(1,3)
 				p[name].money = p[name].money + addFlowers 
 				trans.chatMessage("<R><B>["..tn(name,"mod").."]</b><N> "..string.format(tn(name,"add"), addFlowers).." </font>", name)
 			end
