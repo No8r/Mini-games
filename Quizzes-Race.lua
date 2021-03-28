@@ -8,7 +8,7 @@ local num = 0
 local names = {}
 local game = {
     commands = {"+","-","c","fc"},
-    admins = {["Noooooooorr#0000"] = true,["Kiwi_is_here#0558"] = true,["Uvfn#0015"] = true},
+    admins = {["Ragekitteee#0015"] = true,["Noooooooorr#0000"] = true,["Kiwi_is_here#0558"] = true,["Uvfn#0000"] = true,["Lalajb#0000"] = true,["Omaraldin#1619"] = true,["Massi#0010"] = true},
     bad_words={"خرا", "shit"},
     winners = {}
 }
@@ -112,6 +112,10 @@ local questions = {
     {
         q="ghostin 'is a song by Ariana grande but in which album is it?",
         a={"thanks u next", "sweetner", "My everything", "Dangerous woman"},
+    },
+    {
+        q="1+1 = ?",
+        a={"1", "2", "11", "111"},
     },
 }
 print("<fc>Questions number: </fc><n>"..#questions)
@@ -336,7 +340,7 @@ function eventTextAreaCallback(id, name, cb)
         end
     else
         local sec = ((p[name].click+5000) - os.time())/1000
-        msg(string.format(translate("waitsecounds", name)), math.ceil(sec))
+        TFM.chatMessage(string.format(translate("waitsecounds", name), math.ceil(sec)), name)
     end
 end
 
