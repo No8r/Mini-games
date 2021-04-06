@@ -1,4 +1,4 @@
-local Currentlanguage = "en"
+local Currentlanguage = "ar"
 
 tfm.exec.disableAfkDeath(true)
 tfm.exec.disableAutoNewGame(true)
